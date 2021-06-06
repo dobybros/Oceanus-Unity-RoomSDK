@@ -1,0 +1,10 @@
+
+Library/**
+Logs/**
+Packages/packages-lock.json
+output/**
+apks/**
+Temp/**
+obj/**
+.vs/**
+*.unitypackage

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<linker>
+	<assembly fullname="UnityEngine" preserve="all"/>
+	
+	<assembly fullname="Assembly-CSharp">
+		<namespace fullname="Oceanus.Core" />
+		<namespace fullname="NetWork.Oceanus" />
+		<type fullname="Oceanus.Core.*" preserve="all"/>
+		<type fullname="NetWork.Oceanus.*" preserve="all"/>
+	</assembly>
+
+	<assembly fullname="Oceanus.Core">
+		<namespace fullname="Oceanus.Core" />
+		<type fullname="Oceanus.Core.*" preserve="all"/>
+	</assembly>
+</linker>
